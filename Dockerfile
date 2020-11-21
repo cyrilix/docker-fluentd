@@ -1,7 +1,7 @@
 FROM alpine:3.12
-LABEL Description="Fluentd docker image" Version="1.11.4"
+LABEL Description="Fluentd docker image" Version="1.11.5"
 
-ARG FLUENTD_VERSION=1.11.4
+ARG FLUENTD_VERSION=1.11.5
 
 # Do not split this into multiple RUN!
 # Docker creates a layer for every RUN-Statement
